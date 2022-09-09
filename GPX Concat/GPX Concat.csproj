@@ -46,8 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GPX.cs" />
-    <Compile Include="TrkPt.cs" />
+    <Compile Include="Lib\GPX.cs" />
+    <Compile Include="Lib\TileCalculator.cs" />
+    <Compile Include="Lib\Wpt.cs" />
+    <Compile Include="Lib\TrkPt.cs" />
     <Compile Include="MergeForm.cs">
       <SubType>Form</SubType>
     </Compile>
